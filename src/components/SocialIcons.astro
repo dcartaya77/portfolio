@@ -1,0 +1,71 @@
+---
+const {width, height} = Astro.props;
+const socialLinks = [
+	{
+		title: 'LinkedIn',
+		icon: 'simple-icons:linkedin',
+		href: 'https://www.linkedin.com/in/david-cartaya-rodriguez-38b4362a4/',
+	},
+	{
+		title: 'WhatsApp',
+		icon: 'simple-icons:whatsapp',
+		href: 'https://wa.me/5351958846',
+	},
+	{
+		title: 'CV',
+		icon: 'tabler:file-cv',
+		href: '../docs/CV-DavidCartayaRodríguez.docx',
+	},
+	{
+		title: 'GitHub',
+		icon: 'mdi:github',
+		href: 'https://github.com/dcartaya77',
+	},
+];
+---
+
+<div class="icons__container">
+    {
+        socialLinks.map((data) => (
+            <a
+                href={data.href}
+                target="_blank"
+                rel="nofollow noreferrer noopener"
+            >
+                <iconify-icon
+					class=`skill__icon ${data.title}`
+                    icon={data.icon}
+                    width={width}
+                    height={height}
+                />
+            </a>
+        ))
+    }
+</div>
+
+<style>
+	.icons__container {
+		display: flex;
+    width: 29.6rem;
+    /* padding: 1.3rem 4rem; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.skill__icon{
+	color:#dcd8fc;
+}
+
+	.LinkedIn:hover{
+		color: #0e76a8;
+	}
+	.WhatsApp:hover{
+	color: rgb(18, 207, 18);
+	}
+	.CV:hover{
+		color:#8e64ff;
+	}
+  .GitHub:hover{
+		color: #dedede;
+	}
+</style>

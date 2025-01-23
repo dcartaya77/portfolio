@@ -1,0 +1,42 @@
+---
+import Title from './atoms/Title.astro'
+import CardWork from './card-works/CardWork.astro'
+import { works } from './data/worksExperience'
+---
+
+<section class="flex flex-col w-full justify-center items-center pt-40" id="works">
+	<div class="work__container">
+		<Title contenido="Work Experience" />
+		<div class="experiences">
+			{
+        works.map(work =>(
+          <CardWork 
+            date={work.date} 
+            ocupation={work.ocupation} 
+            enterprise={work.enterprise}
+            tasks={work.tasks}          
+          />
+        ))
+      }
+		</div>
+	</div>
+</section>
+
+<style>
+	.work__container {
+		max-width: var(--max-width);
+		.experiences {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			gap: 4rem;
+		}
+	}
+  @media screen and (max-width: 768px) {
+    .work__container {
+        padding: 8rem 3.1rem;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+</style>

@@ -1,0 +1,16 @@
+---
+const {date, ocupation, enterprise, tasks } = Astro.props
+---
+<div class="border-8 shadow-md shadow-black border-[#311e54] rounded-xl w-full px-14 py-5 hover:shadow-lg hover:shadow-[black]">
+  <p class="text-2xl mb-4">{date}</p>
+  <p class="text-3xl mb-4 italic opacity-80"> - {ocupation} -</p>
+  <p class="text-3xl font-bold mb-12 underline">{enterprise}</p>
+  <p class="text-3xl font-bold">Tasks:</p>
+  <ul class="text-white text-3xl">  
+    {
+      tasks.map(item => (
+        <li class="pl-3 leading-tight py-2">● {item}</li>
+      ))
+    }
+  </ul>   
+</div>

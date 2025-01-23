@@ -1,0 +1,30 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import "./about.css"
+
+
+---
+
+<section id="about" class="about">
+	<div class="about__container">
+		<img
+			class="about__img"
+			src="/img/code2.jpg"
+			alt="Foto de perfil de David Cartaya Rodríguez"
+		/>
+
+		<div class="about__content">
+			<Title margin="1rem" contenido="About me" />
+			<ul class="about__text text-white">
+				<li>● I am a Software Engineer, specializing in web development and markup development.</li>
+				<li>● Graduated in Computer Engineering at University of Informatics Sciences (2011-2016) in Cuba.</li>
+				<li>● +5 years working as web development.</li>
+				<li>● Frontend developer.</li>
+				<li>● Freelancer.</li>
+			</ul>
+			<SocialIcons width="25" height="25"/>
+		</div>
+	</div>
+
+</section>

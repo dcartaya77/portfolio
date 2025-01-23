@@ -1,0 +1,24 @@
+---
+import './hero.css';
+import Boton from '../atoms/Boton.astro';
+---
+
+<section class="hero">
+
+	<div class="hero__container">
+		<div class="text__content">
+			<h1 class="hero__title color__gradiente">David Cartaya Rodríguez</h1>
+			<p class="hero__text">
+				"I am a frontend web developer passionate about creating engaging and functional digital experiences."
+			</p>
+			<Boton href="#about" texto="About me"/>
+		</div>
+    <img
+		class="hero__img"
+		src="/img/david.png"
+		alt="David Cartaya Rodríguez"
+		width="384"
+    	height="384"
+	/>
+	</div>
+</section>
