@@ -1,0 +1,10 @@
+version: 1  
+services:  
+  - type: web  
+    name: Mi portafolio
+    env: static  
+    buildCommand: npm run build  
+    staticPublishPath: dist  # Este es el directorio de salida de Astro  
+    routes:  
+      - src: /.*               # Para enrutar todas las solicitudes a tu sitio  
+        dest: /index.html      # Asegúrate de que todas las rutas se dirijan a index.html
