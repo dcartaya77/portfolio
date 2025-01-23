@@ -17,7 +17,7 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: './img/moremarket.png',
+		imgSrc: './img/moremarket.webp',
 		title: 'E-commerce MoreMarket',
 		skills: ['Vue', 'Vuetify', 'Nuxt'],
 		descripcion:
@@ -27,7 +27,7 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: './img/sbcolegal.png',
+		imgSrc: './img/sbcolegal.webp',
 		title: 'SBCOLEGAL',
 		skills: ['Wordpress', 'CSS'],
 		descripcion:
@@ -38,7 +38,7 @@ export const portafolioData = [
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: './img/hydairconditioning.png',
+		imgSrc: './img/hydairconditioning.webp',
 		title: 'Conditioning Repair',
 		skills: ['Wordpress', 'CSS'],
 		descripcion:
@@ -48,7 +48,7 @@ export const portafolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: './img/portfolio-alexei.png',
+		imgSrc: './img/portfolio-alexei.webp',
 		title: 'Portafolio',
 		skills: ['HTML', 'Tailwind'],
 		descripcion:
