@@ -20,10 +20,9 @@
   },
   "description": "![Portada](image-1.png)",
   "main": "index.astro",
-  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SofiDevO/portfolio-astrosofidev-garrux.git"
+    "url": "git+https://github.com/dcartaya77/portfolio.git"
   },
   "keywords": [
     "astro",
@@ -35,10 +34,9 @@
     "css",
     "tailwind"
   ],
-  "author": "SofiDev / Garrux",
-  "license": "MIT",
+  "author": "David Cartaya Rodríguez",
   "bugs": {
-    "url": "https://github.com/SofiDevO/portfolio-astrosofidev-garrux/issues"
+    "url": "https://github.com/dcartaya77/portfolio/issues"
   },
-  "homepage": "https://github.com/SofiDevO/portfolio-astrosofidev-garrux#readme"
+  "homepage": "https://github.com/dcartaya77/portfolio#readme"
 }
