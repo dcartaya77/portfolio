@@ -24,7 +24,7 @@ export const portafolioData = [
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		demoURL: '',
 		repoURL: '',
-		anim: 'fade-right',
+		anim: 'fade-left',
 	},
 	{
 		imgSrc: './img/sbcolegal.webp',
@@ -45,17 +45,27 @@ export const portafolioData = [
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		demoURL: '',
 		repoURL: '',
-		anim: 'fade-left',
+		anim: 'fade-right',
 	},
 	{
 		imgSrc: './img/portfolio-alexei.webp',
-		title: 'Portafolio',
+		title: 'Portfolio',
 		skills: ['HTML', 'Tailwind'],
 		descripcion:
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		demoURL: '',
 		repoURL: '',
-		anim: 'fade-right',
+		anim: 'fade-left',
+	},
+	{
+		imgSrc: './img/my-portfolio.webp',
+		title: 'My Portfolio',
+		skills: ['Astro', 'Tailwind', 'CSS'],
+		descripcion:
+			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+		demoURL: '',
+		repoURL: '',
+		anim: 'fade-up',
 	}
 ];
 
