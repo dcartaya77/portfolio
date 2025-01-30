@@ -1,5 +1,5 @@
 /**
- * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
+ * @David Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
  * @typedef PortafolioData
  * @property {string} imgSrc Url de la imagen
  * @property {string} title Titulo de la tarjeta
@@ -11,17 +11,14 @@
  * @property {number} averageBrightness Cuanto brillo tendrá el color de fondo de la tarjeta, ej: 0.1
  */
 
-/**
- * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
- * @type {PortafolioData[]}
- */
+
 export const portafolioData = [
 	{
 		imgSrc: './img/moremarket.webp',
 		title: 'E-commerce MoreMarket',
 		skills: ['Vue', 'Vuetify', 'Nuxt'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'The MoreMarket Store website is an online marketplace allowing multiple vendors to showcase and sell their products seamlessly. It features user-friendly navigation, product categories, and options for customer accounts, promoting a diverse shopping experience for both buyers and sellers.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',
@@ -31,7 +28,7 @@ export const portafolioData = [
 		title: 'SBCOLEGAL',
 		skills: ['Wordpress', 'CSS'],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'The SBCO Legal website specializes in providing comprehensive legal services, highlighting its expertise in corporate law, international trade, and litigation. Additionally, they present a team of attorneys with a strong track record and provide information about their practice areas and personalized approaches to meet their clients\' needs.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-up',
@@ -42,7 +39,7 @@ export const portafolioData = [
 		title: 'Conditioning Repair',
 		skills: ['Wordpress', 'CSS'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'The Hydair Conditioning website showcases their expertise in providing heating, ventilation, and air conditioning (HVAC) solutions for both residential and commercial clients. They emphasize their commitment to quality service, reliable products, and customer satisfaction, offering information about their services, financing options, and a helpful blog.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
@@ -52,7 +49,7 @@ export const portafolioData = [
 		title: 'Portfolio',
 		skills: ['HTML', 'Tailwind'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Alexei Alayo\'s website showcases his work as developer, highlighting creative projects and his focus on interactivity and user experience. It also includes information about his professional experience and offered services, as well as a blog where he shares insights on technology.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',
@@ -62,7 +59,7 @@ export const portafolioData = [
 		title: 'My Portfolio',
 		skills: ['Astro', 'Tailwind', 'CSS'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'A one-page portfolio created using Astro and Tailwind, featuring sections such as: About Me, My Skills, Work Experience, and Projects.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-up',
