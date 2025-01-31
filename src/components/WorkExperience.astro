@@ -5,9 +5,9 @@ import { works } from './data/worksExperience'
 ---
 
 <section class="flex flex-col w-full justify-center items-center pt-40" id="works">
-	<div class="work__container">
+	<ol class="work__container">
 		<Title contenido="Work Experience" />
-		<div class="experiences">
+		<ol class="relative border-s border-gray-200 dark:border-gray-700">  
 			{
         works.map(work =>(
           <CardWork 
@@ -18,7 +18,7 @@ import { works } from './data/worksExperience'
           />
         ))
       }
-		</div>
+		</ol>
 	</div>
 </section>
 

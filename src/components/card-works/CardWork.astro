@@ -1,16 +1,35 @@
 ---
-const {date, ocupation, enterprise, tasks } = Astro.props
+const { date, ocupation, enterprise, tasks } = Astro.props
 ---
-<div class="border-8 shadow-md shadow-black border-[#311e54] rounded-xl w-full px-14 py-5 hover:shadow-lg hover:shadow-[black]">
-  <p class="text-2xl mb-4">{date}</p>
-  <p class="text-3xl mb-4 italic opacity-80"> - {ocupation} -</p>
-  <p class="text-3xl font-bold mb-12 underline">{enterprise}</p>
-  <p class="text-3xl font-bold">Tasks:</p>
-  <ul class="text-white text-3xl">  
-    {
-      tasks.map(item => (
-        <li class="pl-3 leading-tight py-2">● {item}</li>
-      ))
-    }
-  </ul>   
-</div>
+
+<li class="mb-10 ms-12">
+    <div
+        class="absolute w-5 h-5 bg-blue-500 rounded-full mt-1.5 -start-2.5 border border-white dark:border-gray-900 dark:bg-gray-700 transform transition-transform duration-300 hover:scale-110"
+    >
+    </div>
+    <!-- Fecha -->
+    <time
+        class="mb-1 text-4xl font-normal leading-none text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 transition-colors duration-300"
+        >{date}</time
+    >
+
+    <!-- Ocupación -->
+    <h3 class="text-5xl my-5 font-semibold text-white dark:text-white hover:text-blue-400 dark:hover:text-blue-300 transition-colors duration-300">
+        {ocupation}
+    </h3>
+
+    <!-- Empresa -->
+    <p class="mb-4 text-4xl font-normal text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 transition-colors duration-300">
+        {enterprise}
+    </p>
+
+    <!-- Lista de tareas -->
+    <ul class="text-white text-3xl">
+      <h4>Tasks:</h4>
+        {tasks.map((item) => (
+            <li class="pl-3 leading-tight py-2 hover:bg-gray-700 dark:hover:bg-gray-800 rounded-lg transition-colors duration-300">
+                <span class="text-blue-400 dark:text-blue-300">●</span> {item}
+            </li>
+        ))}
+    </ul>
+</li>
